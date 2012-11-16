@@ -1,0 +1,27 @@
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>VntConverter.jar</jar>
+  <outfile>product\VntConverter.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>etc\net\sf\vntconverter\VntConverter.ico</icon>
+  <classPath>
+    <mainClass>net.sf.vntconverter.VntConverter</mainClass>
+    <cp>commons-io-2.4.jar</cp>
+    <cp>mailapi-1.4.5.jar</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <minVersion>1.7.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+</launch4jConfig>

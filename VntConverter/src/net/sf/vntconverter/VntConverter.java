@@ -72,7 +72,7 @@ public class VntConverter {
 			InputStream input = MimeUtility.decode(new ReaderInputStream(new StringReader(in), "UTF-8"),
 					"quoted-printable");
 			StringWriter sw = new StringWriter();
-			OutputStream output = new WriterOutputStream(sw);
+			OutputStream output = new WriterOutputStream(sw, "UTF-8");
 			copyAndClose(input, output);
 			return sw.toString();
 		} catch (Exception e) {
