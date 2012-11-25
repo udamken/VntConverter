@@ -13,6 +13,9 @@
 				<include name="*.exe" />
 				<include name="*.jar" />
 			</fileset>
+			<fileset dir="D:/Software/Git/vntconverter-code/VntConverter">
+				<include name="LICENSE.txt" />
+			</fileset>
 		</copy>
 	</target>
 
