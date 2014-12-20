@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Deploy VntConverter to target directory" default="deploy" basedir=".">
+
+	<property name="targetdir" value="C:/Programme/VntConverter" />
+
+	<target name="deploy">
+		<copy todir="${targetdir}" verbose="true" overwrite="true">
+			<fileset dir="D:/Software/Git/vntconverter-code/VntConverter/lib">
+				<include name="*.jar" />
+			</fileset>
+			<fileset dir="D:/Software/Git/vntconverter-code/VntConverter/product">
+				<include name="*.exe" />
+				<include name="*.jar" />
+			</fileset>
+			<fileset dir="D:/Software/Git/vntconverter-code/VntConverter">
+				<include name="LICENSE.txt" />
+			</fileset>
+		</copy>
+	</target>
+
+</project>

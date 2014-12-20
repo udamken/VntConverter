@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: net.sf.vntconverter.VntConverter
+Class-Path: commons-io-2.4.jar mailapi-1.4.5.jar
